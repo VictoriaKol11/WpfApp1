@@ -14,7 +14,7 @@ namespace WpfApp1.ViewModels
             get => _synchonizedText;
             set
             {
-                _synchonizedText = value;
+                _synchonizedText = value;//Равно значению
                 OnPropertyChanged(nameof(SynchonizedText));
             }
         }
