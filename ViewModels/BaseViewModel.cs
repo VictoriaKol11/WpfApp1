@@ -13,7 +13,7 @@ namespace WpfApp1.ViewModels
 
         protected virtual void OnPropertyChanged(string propertyName = "")
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));//комментарий
         }
     }
 }
